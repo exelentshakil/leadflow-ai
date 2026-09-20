@@ -1,4 +1,4 @@
-live: https://leadflow-ai.vercel.app
+live: https://leadflow-core.vercel.app
 code: https://github.com/exelentshakil/leadflow-ai
 work: https://shakilhq.com
 

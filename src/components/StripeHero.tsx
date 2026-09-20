@@ -100,20 +100,27 @@ export function StripeHero({
               </Button>
             </div>
 
-            {/* Stripe Institutional Enterprise Client Logos Strip */}
-            <div className="pt-8 border-t border-[var(--color-border)]/80 max-w-2xl">
+            {/* Stripe Institutional Enterprise Integration Logos Strip (Guaranteed Single-Line Anti-Wrap) */}
+            <div className="pt-6 sm:pt-8 border-t border-[var(--color-border)]/80 max-w-2xl">
               <p className="text-xs font-semibold uppercase tracking-wider text-[var(--color-text-secondary)] mb-3">
                 Connects seamlessly across your business stack
               </p>
-              <div className="flex flex-wrap items-center justify-between gap-5 opacity-90 grayscale hover:grayscale-0 transition-all font-mono font-bold text-sm sm:text-base text-[var(--color-text-primary)]">
-                <span>n8n</span>
-                <span>Make.com</span>
-                <span>Anthropic</span>
-                <span>OpenAI</span>
-                <span>HubSpot</span>
-                <span>Airtable</span>
-                <span>Google Sheets</span>
-                <span>Slack</span>
+              <div className="flex items-center justify-between gap-2 sm:gap-3 opacity-90 font-mono font-bold text-xs sm:text-[13px] text-[var(--color-text-primary)] whitespace-nowrap overflow-x-auto">
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">n8n</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">Make.com</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">Claude</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">OpenAI</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">HubSpot</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">Airtable</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">Sheets</span>
+                <span className="text-[var(--color-border)] select-none shrink-0">•</span>
+                <span className="shrink-0 hover:text-[#533AFD] transition-colors">Slack</span>
               </div>
             </div>
           </div>
