@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 import React, { useState } from 'react';
 import {
   ChevronRight,
@@ -13,7 +11,6 @@ import {
   CheckCircle2,
   RefreshCw,
   Radio,
-  BookOpen,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { siteConfig } from '@/config/site';
@@ -102,15 +99,7 @@ export function StripeHero({
                 <ChevronRight className="h-4 w-4 text-[var(--color-text-muted)]" />
               </Button>
 
-              <Link href="/ml-handbook">
-                <Button
-                  variant="outline"
-                  className="h-11 px-4 text-[14px] font-semibold border-emerald-500/30 bg-emerald-50/50 dark:bg-emerald-950/30 hover:bg-emerald-100/50 text-emerald-800 dark:text-emerald-300 rounded-[4px] shadow-2xs cursor-pointer flex items-center gap-1.5"
-                >
-                  <BookOpen className="h-4 w-4 text-emerald-600 dark:text-emerald-400" />
-                  <span>বাংলায় ML ও AI হ্যান্ডবুক</span>
-                </Button>
-              </Link>
+
             </div>
 
             {/* Stripe Institutional Enterprise Integration Logos Strip (Guaranteed Single-Line Anti-Wrap) */}

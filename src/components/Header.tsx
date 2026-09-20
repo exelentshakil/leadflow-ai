@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 import React, { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
 import {
@@ -13,7 +11,6 @@ import {
   MoreHorizontal,
   ShieldCheck,
   Terminal,
-  BookOpen,
 } from 'lucide-react';
 import { siteConfig } from '@/config/site';
 import { BrandLogoMark } from '@/components/BrandLogo';
@@ -151,14 +148,7 @@ export function Header({
                     <Terminal className="w-3.5 h-3.5 text-[#533AFD]" />
                     <span>Real-time Execution Logs</span>
                   </button>
-                  <Link
-                    href="/ml-handbook"
-                    onClick={() => setMoreMenuOpen(false)}
-                    className="w-full flex items-center gap-2 px-2.5 py-1.5 rounded-[4px] text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:bg-[var(--color-panel-subtle)] text-left cursor-pointer border-t border-[var(--color-border)]/60 pt-2"
-                  >
-                    <BookOpen className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>বাংলায় ML হ্যান্ডবুক</span>
-                  </Link>
+
                 </div>
               </>
             )}
